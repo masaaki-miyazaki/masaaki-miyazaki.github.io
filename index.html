@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>宮﨑 将聡 | Masaaki Miyazaki</title>
+<meta name="description" content="コンサルティングファームで働くデータサイエンティスト、宮﨑将聡のプロフィールと作ったもの。専門は自然言語処理。">
+<style>
+  :root{
+    --bg:#f7f8fa; --card:#ffffff; --text:#1f2430; --muted:#5b6472;
+    --accent:#2563eb; --border:#e3e7ee;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:"Hiragino Kaku Gothic ProN","Hiragino Sans","Noto Sans JP",sans-serif;background:var(--bg);color:var(--text);line-height:1.7;}
+  .wrap{max-width:760px;margin:0 auto;padding:24px 16px 64px;}
+  header{text-align:center;padding:48px 16px 32px;}
+  header img{width:120px;height:120px;border-radius:50%;border:3px solid var(--border);}
+  h1{font-size:1.9rem;margin:16px 0 4px;}
+  .name-en{color:var(--muted);margin:0;font-size:0.95rem;letter-spacing:.08em;}
+  .role{margin:12px 0 0;font-size:1.05rem;}
+  .role strong{color:var(--accent);}
+  section{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px;margin-bottom:20px;}
+  h2{font-size:1.15rem;margin:0 0 12px;padding-bottom:8px;border-bottom:2px solid var(--border);}
+  p{margin:0 0 10px;}
+  ul{margin:0;padding-left:1.2em;}
+  li{margin-bottom:6px;}
+  .career{list-style:none;padding:0;}
+  .career li{display:flex;gap:16px;margin-bottom:10px;}
+  .career .date{flex:0 0 92px;color:var(--muted);font-size:0.9rem;}
+  .works{display:grid;gap:12px;}
+  .work{border:1px solid var(--border);border-radius:10px;padding:16px;}
+  .work h3{margin:0 0 6px;font-size:1.02rem;}
+  .work p{margin:0;color:var(--muted);font-size:0.92rem;}
+  .tag{display:inline-block;background:#eef2ff;color:var(--accent);border-radius:999px;padding:1px 10px;font-size:0.78rem;margin-left:8px;vertical-align:middle;}
+  a{color:var(--accent);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  .links{display:flex;gap:12px;flex-wrap:wrap;}
+  .links a{display:inline-block;border:1px solid var(--border);border-radius:999px;padding:8px 18px;background:var(--card);}
+  footer{text-align:center;color:var(--muted);font-size:0.85rem;padding-top:8px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img src="https://avatars.githubusercontent.com/u/80525877?v=4" alt="宮﨑将聡のアバター">
+    <h1>宮﨑 将聡</h1>
+    <p class="name-en">Masaaki Miyazaki</p>
+    <p class="role">コンサルティングファームの<strong>データサイエンティスト</strong>｜専門は<strong>自然言語処理</strong></p>
+  </header>
+
+  <section>
+    <h2>自己紹介</h2>
+    <p>九州出身のデータサイエンティストです。コンサルティングファームでデータサイエンティストとして勤務しています。専門は自然言語処理で、関心領域はAI・データ活用全般です。</p>
+    <p>個人では、ツールやゲームなどのものづくりをしていて、作ったものを小さく世に出すのが好きです。</p>
+  </section>
+
+  <section>
+    <h2>経歴</h2>
+    <ul class="career">
+      <li><span class="date">2022年3月</span><span>九州工業大学 工学部 宇宙システム工学科 卒業</span></li>
+      <li><span class="date">2024年3月</span><span>九州工業大学 大学院 工学府 工学専攻 修了</span></li>
+      <li><span class="date">2024年4月〜</span><span>コンサルティングファームにてデータサイエンティストとして勤務（現職）</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>作ったもの（個人制作）</h2>
+    <div class="works">
+      <div class="work">
+        <h3><a href="https://oriba.booth.pm/items/9102415" target="_blank" rel="noopener">純資産トラッカー</a><span class="tag">販売中</span></h3>
+        <p>月1回の入力で「目標まであといくら・いつ届くか」が分かる資産管理Excelシート。BOOTH「oriba」で販売中です。</p>
+      </div>
+      <div class="work">
+        <h3>まちづくりガチャクリッカー<span class="tag">開発中</span></h3>
+        <p>集めた住民を街の施設に配置して発展させていく、放置系まちづくりゲーム。年代記ストーリーや転生要素のあるブラウザゲームとして開発中です。</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>GitHub のプロジェクト</h2>
+    <ul>
+      <li><a href="https://github.com/masaaki-miyazaki/gpt2_japanese" target="_blank" rel="noopener">gpt2_japanese</a> ― 日本語GPT-2モデルの実験</li>
+      <li><a href="https://github.com/masaaki-miyazaki/tweet_analysis_with_LDA" target="_blank" rel="noopener">tweet_analysis_with_LDA</a> ― LDAによるツイートのトピック分析</li>
+      <li><a href="https://github.com/masaaki-miyazaki/chat_bot" target="_blank" rel="noopener">chat_bot</a> ― チャットボット</li>
+      <li><a href="https://github.com/masaaki-miyazaki/Reinforcement-Learning-for-Finding-Multiple-Evacuation-Paths-in-the-Danger-of-Heavy-Rain-Disasters" target="_blank" rel="noopener">避難経路探索（強化学習）</a> ― 豪雨災害時の複数避難経路の探索</li>
+      <li><a href="https://github.com/masaaki-miyazaki/noise_reduction" target="_blank" rel="noopener">noise_reduction</a> ― ノイズ除去の実験</li>
+      <li><a href="https://github.com/masaaki-miyazaki/monitor_recognition" target="_blank" rel="noopener">monitor_recognition</a> ― 画像認識の実験</li>
+      <li><a href="https://github.com/masaaki-miyazaki/minesweeper" target="_blank" rel="noopener">minesweeper</a> ― マインスイーパー</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>リンク</h2>
+    <div class="links">
+      <a href="https://github.com/masaaki-miyazaki" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://oriba.booth.pm/" target="_blank" rel="noopener">BOOTH「oriba」</a>
+    </div>
+  </section>
+
+  <footer>© 2026 Masaaki Miyazaki</footer>
+</div>
+</body>
+</html>
